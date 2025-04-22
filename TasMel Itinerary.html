@@ -41,61 +41,47 @@
 <body>
   <div class="container" id="itinerary-container"></div>
 
-  <script>
-    const weatherData = [
-      {date: "15 May 2025", location: "Singapore", weather: "🌤️ Mostly clear", temperature: "26°C – 30°C", sunrise: "06:56", sunset: "19:05"},
-      {date: "16 May 2025", location: "Hobart", weather: "⛅ Partly cloudy", temperature: "9°C – 14°C", sunrise: "07:22", sunset: "16:57"}
-    ];
-
-    const itineraryData = [
-      {date: "15 May 2025", time: "20:15", title: "Leave BB West Terra", description: "Travel to Changi Airport T1 (approx. 45 mins)", address: "", parking: "", mapsLink: ""},
-      {date: "15 May 2025", time: "21:00", title: "Arrive at Changi Airport T1", description: "Target 90 mins before check-in closes", address: "Changi Airport Terminal 1, Singapore", parking: "", mapsLink: ""},
-      {date: "15 May 2025", time: "21:10", title: "Check-in Luggage", description: "Qantas counter – closes at 22:30", address: "Changi Airport Terminal 1, Singapore", parking: "", mapsLink: ""},
-      {date: "15 May 2025", time: "23:30", title: "Flight QF038 – Singapore to Melbourne", description: "Overnight flight", address: "", parking: "", mapsLink: ""},
-      {date: "16 May 2025", time: "08:50", title: "Arrive at Melbourne Tullamarine (T2)", description: "Flight QF038 lands at MEL", address: "Arrival Hall, Terminal 2, Melbourne Airport VIC 3045, Australia", parking: "", mapsLink: "https://maps.google.com/?q=Melbourne+Airport"}
-    ];
-
+  <script src="Itinerary_tasmel_data.js"></script>
+<script>
     const container = document.getElementById('itinerary-container');
 
     weatherData.forEach((day, index) => {
-      const dateHeader = document.createElement('div');
-      dateHeader.className = 'date-header';
-      dateHeader.innerHTML = `${day.date} <span class="material-icons">expand_more</span>`;
-      dateHeader.dataset.index = index;
-      container.appendChild(dateHeader);
+        const dateHeader = document.createElement('div');
+        dateHeader.className = 'date-header';
+        dateHeader.innerHTML = `${day.date} <span class="material-icons">expand_more</span>`;
+        dateHeader.dataset.index = index;
+        container.appendChild(dateHeader);
 
-      const weatherDiv = document.createElement('div');
-      weatherDiv.className = 'weather';
-      weatherDiv.textContent = `${day.weather}, ${day.temperature} | Sunrise: ${day.sunrise} | Sunset: ${day.sunset}`;
+        const weatherDiv = document.createElement('div');
+        weatherDiv.className = 'weather';
+        weatherDiv.textContent = `${day.weather}, ${day.temperature} | Sunrise: ${day.sunrise} | Sunset: ${day.sunset}`;
 
-      const activitiesDiv = document.createElement('div');
-      activitiesDiv.className = 'activities';
-      activitiesDiv.appendChild(weatherDiv);
+        const activitiesDiv = document.createElement('div');
+        activitiesDiv.className = 'activities';
+        activitiesDiv.appendChild(weatherDiv);
 
-      itineraryData.filter(item => item.date === day.date).forEach(activity => {
-        const activityDiv = document.createElement('div');
-        activityDiv.className = 'activity';
+        itineraryData.filter(item => item.date === day.date).forEach(activity => {
+            const activityDiv = document.createElement('div');
+            activityDiv.className = 'activity';
+            activityDiv.innerHTML = `
+              <div class="time">${activity.time}</div>
+              <div class="title">${activity.title}</div>
+              <div class="description">${activity.description}</div>
+              ${activity.address ? `<div class="address">${activity.address}</div>` : ''}
+              ${activity.mapsLink ? `<a class="maps-link" href="${activity.mapsLink}" target="_blank">Open in Maps</a>` : ''}
+            `;
+            activitiesDiv.appendChild(activityDiv);
+        });
 
-        activityDiv.innerHTML = `
-          <div class="time">${activity.time}</div>
-          <div class="title">${activity.title}</div>
-          <div class="description">${activity.description}</div>
-          ${activity.address ? `<div class="address">${activity.address}</div>` : ''}
-          ${activity.mapsLink ? `<a class="maps-link" href="${activity.mapsLink}" target="_blank">Open in Maps</a>` : ''}
-        `;
+        container.appendChild(activitiesDiv);
 
-        activitiesDiv.appendChild(activityDiv);
-      });
-
-      container.appendChild(activitiesDiv);
-
-      dateHeader.addEventListener('click', () => {
-        const isVisible = activitiesDiv.style.display === 'block';
-        activitiesDiv.style.display = isVisible ? 'none' : 'block';
-        const arrow = dateHeader.querySelector('.material-icons');
-        arrow.textContent = isVisible ? 'expand_more' : 'expand_less';
-      });
+        dateHeader.addEventListener('click', () => {
+            const isVisible = activitiesDiv.style.display === 'block';
+            activitiesDiv.style.display = isVisible ? 'none' : 'block';
+            const arrow = dateHeader.querySelector('.material-icons');
+            arrow.textContent = isVisible ? 'expand_more' : 'expand_less';
+        });
     });
-  </script>
+</script>
 </body>
 </html>
