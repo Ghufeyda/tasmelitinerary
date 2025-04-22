@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Itinerary UI Demo</title>
+  <style>
+    @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+    body { font-family: Arial, sans-serif; background: #f8f9fa; margin: 0; padding: 10px; }
+    .container { max-width: 800px; margin: auto; background: #fff; padding: 15px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    .date-header { font-size: 1.2em; margin: 10px 0; color: #222; cursor: pointer; background: #e3f2fd; padding: 10px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; transition: background 0.3s ease; }
+    .date-header:hover { background: #d0e7fb; }
+    .material-icons { font-size: 1.4em; color: #0d6efd; }
+    .weather { font-size: 0.9em; color: #555; margin: 8px 0 12px; font-style: italic; }
+    .activities { display: none; margin-bottom: 20px; animation: fadeIn 0.3s ease; }
+    .activity { border-left: 4px solid #0d6efd; padding-left: 10px; margin-bottom: 15px; background: #f9f9f9; padding: 10px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    .time { font-weight: bold; color: #0d6efd; font-size: 1em; }
+    .title { font-size: 1.05em; margin: 4px 0; color: #333; }
+    .description { font-size: 0.9em; color: #444; margin-bottom: 4px; }
+    .address, .parking { font-size: 0.85em; color: #666; }
+    .maps-link { font-size: 0.85em; color: #0d6efd; text-decoration: none; display: inline-block; margin-top: 4px; }
+    .maps-link:hover { text-decoration: underline; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-5px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      .container { padding: 10px; }
+      .date-header { font-size: 1em; padding: 8px; }
+      .weather { font-size: 0.85em; }
+      .activity { padding: 8px; margin-bottom: 12px; }
+      .time { font-size: 0.95em; }
+      .title { font-size: 1em; }
+      .description, .address, .parking, .maps-link { font-size: 0.8em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="itinerary-container"></div>
+
+  <script>
+    const weatherData = [
+      {date: "15 May 2025", location: "Singapore", weather: "🌤️ Mostly clear", temperature: "26°C – 30°C", sunrise: "06:56", sunset: "19:05"},
+      {date: "16 May 2025", location: "Hobart", weather: "⛅ Partly cloudy", temperature: "9°C – 14°C", sunrise: "07:22", sunset: "16:57"}
+    ];
+
+    const itineraryData = [
+      {date: "15 May 2025", time: "20:15", title: "Leave BB West Terra", description: "Travel to Changi Airport T1 (approx. 45 mins)", address: "", parking: "", mapsLink: ""},
+      {date: "15 May 2025", time: "21:00", title: "Arrive at Changi Airport T1", description: "Target 90 mins before check-in closes", address: "Changi Airport Terminal 1, Singapore", parking: "", mapsLink: ""},
+      {date: "15 May 2025", time: "21:10", title: "Check-in Luggage", description: "Qantas counter – closes at 22:30", address: "Changi Airport Terminal 1, Singapore", parking: "", mapsLink: ""},
+      {date: "15 May 2025", time: "23:30", title: "Flight QF038 – Singapore to Melbourne", description: "Overnight flight", address: "", parking: "", mapsLink: ""},
+      {date: "16 May 2025", time: "08:50", title: "Arrive at Melbourne Tullamarine (T2)", description: "Flight QF038 lands at MEL", address: "Arrival Hall, Terminal 2, Melbourne Airport VIC 3045, Australia", parking: "", mapsLink: "https://maps.google.com/?q=Melbourne+Airport"}
+    ];
+
+    const container = document.getElementById('itinerary-container');
+
+    weatherData.forEach((day, index) => {
+      const dateHeader = document.createElement('div');
+      dateHeader.className = 'date-header';
+      dateHeader.innerHTML = `${day.date} <span class="material-icons">expand_more</span>`;
+      dateHeader.dataset.index = index;
+      container.appendChild(dateHeader);
+
+      const weatherDiv = document.createElement('div');
+      weatherDiv.className = 'weather';
+      weatherDiv.textContent = `${day.weather}, ${day.temperature} | Sunrise: ${day.sunrise} | Sunset: ${day.sunset}`;
+
+      const activitiesDiv = document.createElement('div');
+      activitiesDiv.className = 'activities';
+      activitiesDiv.appendChild(weatherDiv);
+
+      itineraryData.filter(item => item.date === day.date).forEach(activity => {
+        const activityDiv = document.createElement('div');
+        activityDiv.className = 'activity';
+
+        activityDiv.innerHTML = `
+          <div class="time">${activity.time}</div>
+          <div class="title">${activity.title}</div>
+          <div class="description">${activity.description}</div>
+          ${activity.address ? `<div class="address">${activity.address}</div>` : ''}
+          ${activity.mapsLink ? `<a class="maps-link" href="${activity.mapsLink}" target="_blank">Open in Maps</a>` : ''}
+        `;
+
+        activitiesDiv.appendChild(activityDiv);
+      });
+
+      container.appendChild(activitiesDiv);
+
+      dateHeader.addEventListener('click', () => {
+        const isVisible = activitiesDiv.style.display === 'block';
+        activitiesDiv.style.display = isVisible ? 'none' : 'block';
+        const arrow = dateHeader.querySelector('.material-icons');
+        arrow.textContent = isVisible ? 'expand_more' : 'expand_less';
+      });
+    });
+  </script>
+</body>
+</html>
