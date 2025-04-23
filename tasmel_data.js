@@ -594,5 +594,672 @@ const itineraryData = [
         parking: "On-site parking",
         mapsLink: "comgooglemaps://?q=Reserve+Rd,+Coles+Bay+TAS+7215,+Australia"
     },
+    
+
+  {
+    date: "22 May 2025",
+    time: "07:30 AM",
+    title: "Wake up & Light Breakfast",
+    description: "At Iluka Holiday Centre",
+    address: "Reserve Rd, Coles Bay TAS 7215, Australia",
+    parking: "On-site parking",
+    mapsLink: "comgooglemaps://?q=Reserve+Rd,+Coles+Bay+TAS+7215,+Australia"
+  },
+  {
+    date: "22 May 2025",
+    time: "08:30 AM",
+    title: "Check out and depart for Launceston",
+    description: "Estimated travel time ~3 hrs with scenic stops",
+    address: "Coles Bay Rd, Coles Bay TAS 7215, Australia",
+    parking: "Accommodation car park",
+    mapsLink: "comgooglemaps://?q=Coles+Bay+Rd,+Coles+Bay+TAS+7215,+Australia"
+  },
+  {
+    date: "22 May 2025",
+    time: "09:30 AM",
+    title: "Stop at Bicheno Blowhole",
+    description: "Take photos and enjoy ocean spray",
+    address: "Burgess St, Bicheno TAS 7215, Australia",
+    parking: "Street parking nearby",
+    mapsLink: "comgooglemaps://?q=Burgess+St,+Bicheno+TAS+7215,+Australia"
+  },
+  {
+    date: "22 May 2025",
+    time: "10:30 AM",
+    title: "Short break at St Marys",
+    description: "Rest or café stop for light refreshment",
+    address: "Main St, St Marys TAS 7215, Australia",
+    parking: "Street parking",
+    mapsLink: "comgooglemaps://?q=Main+St,+St+Marys+TAS+7215,+Australia"
+  },
+  {
+    date: "22 May 2025",
+    time: "12:30 PM",
+    title: "Lunch at Campbell Town",
+    description: "Try a local bakery or vegetarian-friendly café",
+    address: "High St, Campbell Town TAS 7210, Australia",
+    parking: "Street parking",
+    mapsLink: "comgooglemaps://?q=High+St,+Campbell+Town+TAS+7210,+Australia"
+  },
+  {
+    date: "22 May 2025",
+    time: "02:30 PM",
+    title: "Arrive in Launceston & check-in",
+    description: "Settle into your hotel",
+    address: "Launceston TAS 7250, Australia",
+    parking: "Hotel parking",
+    mapsLink: "comgooglemaps://?q=Launceston+TAS+7250,+Australia"
+  },
+  {
+    date: "22 May 2025",
+    time: "03:30 PM",
+    title: "Walk at City Park",
+    description: "See the monkeys, take photos, relax",
+    address: "45-55 Tamar St, Launceston TAS 7250, Australia",
+    parking: "City Park car park",
+    mapsLink: "comgooglemaps://?q=45-55+Tamar+St,+Launceston+TAS+7250,+Australia"
+  },
+  {
+    date: "22 May 2025",
+    time: "05:30 PM",
+    title: "Dinner at Halal Restaurant",
+    description: "Recommended: Pickled Evenings or Zambrero",
+    address: "34 Charles St, Launceston TAS 7250, Australia",
+    parking: "Street parking on Charles St",
+    mapsLink: "comgooglemaps://?q=34+Charles+St,+Launceston+TAS+7250,+Australia"
+  },
+  {
+  date: "22 May 2025",
+  time: "08:00 PM",
+  title: "Wind down at hotel",
+  description: "Relax and rest for your last full day in Launceston.",
+  address: "Launceston TAS 7250, Australia",
+  parking: "Hotel parking",
+  mapsLink: "comgooglemaps://?q=Launceston+TAS+7250,+Australia"
+},
+
+  {
+    date: "23 May 2025",
+    time: "08:00 AM",
+    title: "Light Breakfast",
+    description: "Breakfast at Turkish Tukka – Halal snack packs & Turkish options",
+    address: "Launceston TAS 7250, Australia",
+    parking: "Street parking",
+    mapsLink: "comgooglemaps://?q=Launceston+TAS+7250,+Australia"
+  },
+  {
+    date: "23 May 2025",
+    time: "09:00 AM",
+    title: "Cataract Gorge Reserve",
+    description: "Easy walks, suspension bridge, chairlift",
+    address: "74-90 Basin Rd, West Launceston TAS 7250, Australia",
+    parking: "Gorge main car park",
+    mapsLink: "comgooglemaps://?q=74-90+Basin+Rd,+West+Launceston+TAS+7250,+Australia"
+  },
+  {
+    date: "23 May 2025",
+    time: "10:30 AM",
+    title: "Visit Design Tasmania Gallery",
+    description: "Explore local timber design and Tasmanian-made crafts next to City Park",
+    address: "45-55 Tamar St, Launceston TAS 7250, Australia",
+    parking: "City Park car park",
+    mapsLink: "comgooglemaps://?q=45-55+Tamar+St,+Launceston+TAS+7250,+Australia"
+  },
+  {
+    date: "23 May 2025",
+    time: "11:00 AM",
+    title: "QVMAG Visit (Queen Victoria Museum)",
+    description: "Indoor exhibits, art & science displays",
+    address: "2 Invermay Rd, Invermay TAS 7248, Australia",
+    parking: "Museum car park",
+    mapsLink: "comgooglemaps://?q=2+Invermay+Rd,+Invermay+TAS+7248,+Australia"
+  },
+  {
+    date: "23 May 2025",
+    time: "12:30 PM",
+    title: "Lunch at Local Café",
+    description: "Lunch at Charcoal Fire Indian Restaurant – Halal Indian dishes",
+    address: "126 York St, Launceston TAS 7250, Australia",
+    parking: "Street and nearby lot parking",
+    mapsLink: "comgooglemaps://?q=126+York+St,+Launceston+TAS+7250,+Australia"
+  },
+  {
+    date: "23 May 2025",
+    time: "02:00 PM",
+    title: "Shopping at Brisbane St Mall",
+    description: "Buy souvenirs, local goods or snacks",
+    address: "Brisbane St, Launceston TAS 7250, Australia",
+    parking: "Brisbane St car park",
+    mapsLink: "comgooglemaps://?q=Brisbane+St,+Launceston+TAS+7250,+Australia"
+  },
+  {
+    date: "23 May 2025",
+    time: "04:00 PM",
+    title: "Return to Hotel",
+    description: "Pack up, freshen up, pray, short rest",
+    address: "Launceston TAS 7250, Australia",
+    parking: "Hotel parking",
+    mapsLink: "comgooglemaps://?q=Launceston+TAS+7250,+Australia"
+  },
+  {
+    date: "23 May 2025",
+    time: "05:20 PM",
+    title: "Drive to Petrol Station",
+    description: "Head to fuel stop.",
+    address: "Launceston TAS 7250, Australia",
+    parking: "Petrol station parking",
+    mapsLink: "comgooglemaps://?q=Launceston+TAS+7250,+Australia"
+  },
+  {
+    date: "23 May 2025",
+    time: "05:30 PM",
+    title: "Petrol Stop",
+    description: "Top up at United Westbury, 2 William St, Westbury TAS 7303 before returning to Launceston.",
+    address: "2 William St, Westbury TAS 7303, Australia",
+    parking: "Fuel station parking",
+    mapsLink: "comgooglemaps://?q=2+William+St,+Westbury+TAS+7303,+Australia"
+  },
+  {
+    date: "23 May 2025",
+    time: "05:40 PM",
+    title: "Continue Drive",
+    description: "Resume road trip.",
+    address: "Launceston TAS 7250, Australia",
+    parking: "",
+    mapsLink: "comgooglemaps://?q=Launceston+TAS+7250,+Australia"
+  },
+  {
+    date: "23 May 2025",
+    time: "06:30 PM",
+    title: "Launceston Night Market",
+    description: "Street food, crafts, live music (check halal vendors) | Open 4:00 PM – 9:00 PM at Civic Square",
+    address: "Civic Square, Launceston TAS 7250, Australia",
+    parking: "Civic Square car park",
+    mapsLink: "comgooglemaps://?q=Civic+Square,+Launceston+TAS+7250,+Australia"
+  },
+  {
+    date: "23 May 2025",
+    time: "08:30 PM",
+    title: "Return to Hotel & Rest",
+    description: "Return to Hotel Verge or similar – rest and prepare for morning flight",
+    address: "Launceston TAS 7250, Australia",
+    parking: "Hotel parking",
+    mapsLink: "comgooglemaps://?q=Launceston+TAS+7250,+Australia"
+  },
+
+
+  {
+    date: "24 May 2025",
+    time: "09:30 AM",
+    title: "Check-out & drive to Launceston Airport",
+    description: "Depart hotel and drive approximately 15 minutes to Launceston Airport.",
+    address: "201 Evandale Rd, Western Junction TAS 7212, Australia",
+    parking: "Airport parking",
+    mapsLink: "comgooglemaps://?q=201+Evandale+Rd,+Western+Junction+TAS+7212,+Australia"
+  },
+  {
+    date: "24 May 2025",
+    time: "10:00 AM",
+    title: "Return Rental Car at Launceston Airport",
+    description: "Drop off rental car at the designated area near the terminal.",
+    address: "Launceston Airport, 201 Evandale Rd, Western Junction TAS 7212, Australia",
+    parking: "Car rental return area",
+    mapsLink: "comgooglemaps://?q=201+Evandale+Rd,+Western+Junction+TAS+7212,+Australia"
+  },
+  {
+    date: "24 May 2025",
+    time: "11:40 AM",
+    title: "Flight to Melbourne",
+    description: "Board your flight from Launceston to Melbourne. Flight duration is approximately 1 hour and 5 minutes.",
+    address: "Launceston Airport, TAS 7212, Australia",
+    parking: "N/A",
+    mapsLink: "comgooglemaps://?q=Launceston+Airport,+TAS+7212,+Australia"
+  },
+  {
+    date: "24 May 2025",
+    time: "12:45 PM",
+    title: "Arrive in Melbourne",
+    description: "Land at Melbourne Tullamarine Airport and proceed through customs.",
+    address: "Melbourne Airport, VIC 3045, Australia",
+    parking: "Airport parking",
+    mapsLink: "comgooglemaps://?q=Melbourne+Airport+VIC+3045,+Australia"
+  },
+  {
+    date: "24 May 2025",
+    time: "01:30 PM",
+    title: "Pick up Rental Car (East Coast Car Rentals)",
+    description: "Free shuttle bus to 2 Tarmac Drive, collect car from East Coast Car Rentals.",
+    address: "2 Tarmac Drive, Tullamarine, Victoria, 3043, Melbourne",
+    parking: "On-site car rental parking",
+    mapsLink: "comgooglemaps://?q=2+Tarmac+Drive,+Tullamarine,+Victoria+3043,+Australia"
+  },
+  {
+    date: "24 May 2025",
+    time: "02:00 PM",
+    title: "Lunch at South Melbourne Market",
+    description: "Explore halal-friendly food stalls. Market closes at 4:00 PM.",
+    address: "322-326 Coventry St, South Melbourne VIC 3205, Australia",
+    parking: "Market car park",
+    mapsLink: "comgooglemaps://?q=322-326+Coventry+St,+South+Melbourne+VIC+3205,+Australia"
+  },
+  {
+    date: "24 May 2025",
+    time: "03:30 PM",
+    title: "Check-in at Melbourne Hotel",
+    description: "Arrive at your hotel in Melbourne, drop off luggage, and freshen up.",
+    address: "Melbourne VIC 3000, Australia",
+    parking: "Hotel parking",
+    mapsLink: "comgooglemaps://?q=Melbourne+VIC+3000,+Australia"
+  },
+  {
+    date: "24 May 2025",
+    time: "07:00 PM",
+    title: "Dinner at Lord of The Fries",
+    description: "Enjoy halal-friendly vegetarian fast food at the nearest Lord of The Fries outlet.",
+    address: "Shop 2/189 Swanston St, Melbourne VIC 3000, Australia",
+    parking: "Street parking or nearby parking facilities",
+    mapsLink: "comgooglemaps://?q=189+Swanston+St,+Melbourne+VIC+3000,+Australia"
+  },
+  {
+    date: "24 May 2025",
+    time: "09:00 PM",
+    title: "Return to Hotel & Prepare for Great Ocean Road Trip",
+    description: "Relax and prepare for the next day's journey along the Great Ocean Road.",
+    address: "Melbourne VIC 3000, Australia",
+    parking: "Hotel parking",
+    mapsLink: "comgooglemaps://?q=Melbourne+VIC+3000,+Australia"
+  },
+
+  {
+    date: "25 May 2025",
+    time: "07:30 AM",
+    title: "Depart Melbourne",
+    description: "Begin relaxed 3-day GOR adventure | Light traffic expected.",
+    address: "",
+    parking: "Hotel parking",
+    mapsLink: ""
+  },
+  {
+    date: "25 May 2025",
+    time: "09:30 AM",
+    title: "Photo Stop at Memorial Arch",
+    description: "Quick iconic photo at Great Ocean Road Arch | Optional rest stop.",
+    address: "689 Great Ocean Rd, Eastern View VIC 3231, Australia",
+    parking: "Public parking near arch",
+    mapsLink: "comgooglemaps://?q=689+Great+Ocean+Rd,+Eastern+View+VIC+3231,+Australia"
+  },
+  {
+    date: "25 May 2025",
+    time: "10:00 AM",
+    title: "Petrol Stop",
+    description: "Top up at Shell Colac East, 379 Princes Hwy, Colac VIC 3250.",
+    address: "379 Princes Hwy, Colac VIC 3250, Australia",
+    parking: "Fuel station parking",
+    mapsLink: "comgooglemaps://?q=379+Princes+Hwy,+Colac+VIC+3250,+Australia"
+  },
+  {
+    date: "25 May 2025",
+    time: "10:30 AM",
+    title: "Tea break at Aireys Inlet",
+    description: "Relax at lighthouse café, optional short walk.",
+    address: "Federal St, Aireys Inlet VIC 3231, Australia",
+    parking: "Split Point Lighthouse car park",
+    mapsLink: "comgooglemaps://?q=Federal+St,+Aireys+Inlet+VIC+3231,+Australia"
+  },
+  {
+    date: "25 May 2025",
+    time: "12:30 PM",
+    title: "Lunch at Apollo Bay",
+    description: "Halal-friendly or picnic meal | Seaside town with scenic views.",
+    address: "21 Pascoe St, Apollo Bay VIC 3233, Australia",
+    parking: "Street parking available",
+    mapsLink: "comgooglemaps://?q=21+Pascoe+St,+Apollo+Bay+VIC+3233,+Australia"
+  },
+  {
+    date: "25 May 2025",
+    time: "02:30 PM",
+    title: "Arrive at Accommodation in Apollo Bay",
+    description: "Check-in early for seaside rest.",
+    address: "Apollo Bay VIC 3233, Australia",
+    parking: "Accommodation parking",
+    mapsLink: "comgooglemaps://?q=Apollo+Bay+VIC+3233,+Australia"
+  },
+  {
+    date: "25 May 2025",
+    time: "04:30 PM",
+    title: "Free Time or Beach Walk",
+    description: "Gentle walk or chill by the coast.",
+    address: "Apollo Bay Foreshore, Apollo Bay VIC 3233, Australia",
+    parking: "Foreshore parking",
+    mapsLink: "comgooglemaps://?q=Apollo+Bay+Foreshore,+Apollo+Bay+VIC+3233,+Australia"
+  },
+  {
+    date: "25 May 2025",
+    time: "06:30 PM",
+    title: "Dinner in Apollo Bay",
+    description: "Local vegetarian/seafood café (check halal).",
+    address: "19 Great Ocean Rd, Apollo Bay VIC 3233, Australia",
+    parking: "Street parking or nearby lot",
+    mapsLink: "comgooglemaps://?q=19+Great+Ocean+Rd,+Apollo+Bay+VIC+3233,+Australia"
+  },
+  {
+    date: "25 May 2025",
+    time: "08:00 PM",
+    title: "Back to Hotel and Rest",
+    description: "Back to hotel and rest.",
+    address: "Apollo Bay VIC 3233, Australia",
+    parking: "Accommodation parking",
+    mapsLink: "comgooglemaps://?q=Apollo+Bay+VIC+3233,+Australia"
+  },
+
+  {
+    date: "26 May 2025",
+    time: "07:30 AM",
+    title: "Wake up & Breakfast in Apollo Bay",
+    description: "Breakfast at Apollo Bay Bakery (opens 6:00 AM) – grab takeaway if preferred.",
+    address: "125 Great Ocean Rd, Apollo Bay VIC 3233, Australia",
+    parking: "Street parking available",
+    mapsLink: "comgooglemaps://?q=125+Great+Ocean+Rd,+Apollo+Bay+VIC+3233,+Australia"
+  },
+  {
+    date: "26 May 2025",
+    time: "08:30 AM",
+    title: "Wildlife Spotting at Kennett River",
+    description: "Look for wild koalas and parrots | Parking near Grey River Road.",
+    address: "Grey River Rd, Kennett River VIC 3234, Australia",
+    parking: "Roadside parking",
+    mapsLink: "comgooglemaps://?q=Grey+River+Rd,+Kennett+River+VIC+3234,+Australia"
+  },
+  {
+    date: "26 May 2025",
+    time: "09:30 AM",
+    title: "Rainforest Walk at Maits Rest",
+    description: "30–45 min scenic boardwalk through ancient rainforest.",
+    address: "Great Ocean Rd, Cape Otway VIC 3233, Australia",
+    parking: "Maits Rest car park",
+    mapsLink: "comgooglemaps://?q=Maits+Rest,+Great+Ocean+Rd,+Cape+Otway+VIC+3233,+Australia"
+  },
+  {
+    date: "26 May 2025",
+    time: "11:00 AM",
+    title: "Drive to Port Campbell",
+    description: "Enjoy GOR views en route to next base.",
+    address: "",
+    parking: "",
+    mapsLink: ""
+  },
+  {
+    date: "26 May 2025",
+    time: "01:00 PM",
+    title: "Lunch Stop at Port Campbell",
+    description: "Lunch at Grassroots Deli Cafe (open till 3:00 PM).",
+    address: "28 Lord St, Port Campbell VIC 3269, Australia",
+    parking: "Street parking",
+    mapsLink: "comgooglemaps://?q=28+Lord+St,+Port+Campbell+VIC+3269,+Australia"
+  },
+  {
+    date: "26 May 2025",
+    time: "02:30 PM",
+    title: "Visit 12 Apostles",
+    description: "Iconic GOR site, allow time for photos | Parking available at visitor center.",
+    address: "Great Ocean Rd & Booringa Rd, Princetown VIC 3269, Australia",
+    parking: "Visitor center parking",
+    mapsLink: "comgooglemaps://?q=12+Apostles+Visitor+Centre,+Great+Ocean+Rd,+Princetown+VIC+3269,+Australia"
+  },
+  {
+    date: "26 May 2025",
+    time: "04:00 PM",
+    title: "Check-in at Port Campbell Stay",
+    description: "Unwind and settle in.",
+    address: "Port Campbell VIC 3269, Australia",
+    parking: "Accommodation parking",
+    mapsLink: "comgooglemaps://?q=Port+Campbell+VIC+3269,+Australia"
+  },
+  {
+    date: "26 May 2025",
+    time: "06:00 PM",
+    title: "Dinner in Port Campbell",
+    description: "Dinner at Waves Cafe Bar & Restaurant (from 5:30 PM).",
+    address: "29 Lord St, Port Campbell VIC 3269, Australia",
+    parking: "Street parking nearby",
+    mapsLink: "comgooglemaps://?q=29+Lord+St,+Port+Campbell+VIC+3269,+Australia"
+  },
+
+  {
+    date: "27 May 2025",
+    time: "07:30 AM",
+    title: "Wake up & Breakfast in Port Campbell",
+    description: "Start the day with a relaxing breakfast before exploring.",
+    address: "Port Campbell VIC 3269, Australia",
+    parking: "Accommodation parking",
+    mapsLink: "comgooglemaps://?q=Port+Campbell+VIC+3269,+Australia"
+  },
+  {
+    date: "27 May 2025",
+    time: "08:30 AM",
+    title: "Explore Loch Ard Gorge",
+    description: "Explore shipwreck history and 3 scenic walking trails.",
+    address: "Loch Ard Gorge, Port Campbell VIC 3269, Australia",
+    parking: "Loch Ard Gorge car park",
+    mapsLink: "comgooglemaps://?q=Loch+Ard+Gorge,+Port+Campbell+VIC+3269,+Australia"
+  },
+  {
+    date: "27 May 2025",
+    time: "10:00 AM",
+    title: "Visit London Arch",
+    description: "Photo stop at collapsed sea arch | Short walk to viewpoint.",
+    address: "Great Ocean Rd, Peterborough VIC 3270, Australia",
+    parking: "London Arch car park",
+    mapsLink: "comgooglemaps://?q=London+Arch,+Peterborough+VIC+3270,+Australia"
+  },
+  {
+    date: "27 May 2025",
+    time: "11:00 AM",
+    title: "Visit The Grotto",
+    description: "Beautiful rock formation with lookout and steps down.",
+    address: "Great Ocean Rd, Port Campbell VIC 3269, Australia",
+    parking: "The Grotto car park",
+    mapsLink: "comgooglemaps://?q=The+Grotto,+Port+Campbell+VIC+3269,+Australia"
+  },
+  {
+    date: "27 May 2025",
+    time: "12:30 PM",
+    title: "Lunch in Timboon",
+    description: "Optional stop for gourmet ice cream or café lunch.",
+    address: "Timboon VIC 3268, Australia",
+    parking: "Street parking available",
+    mapsLink: "comgooglemaps://?q=Timboon+VIC+3268,+Australia"
+  },
+  {
+    date: "27 May 2025",
+    time: "01:30 PM",
+    title: "Scenic Drive Back to Melbourne",
+    description: "Drive inland via Colac (approx. 3 hrs).",
+    address: "",
+    parking: "",
+    mapsLink: ""
+  },
+  {
+    date: "27 May 2025",
+    time: "03:30 PM",
+    title: "Coffee Break in Colac",
+    description: "Refuel mid-journey with coffee/snack.",
+    address: "Colac VIC 3250, Australia",
+    parking: "Street parking",
+    mapsLink: "comgooglemaps://?q=Colac+VIC+3250,+Australia"
+  },
+  {
+    date: "27 May 2025",
+    time: "05:00 PM",
+    title: "Petrol Stop",
+    description: "Refuel at BP Geelong, 143-149 Ryrie St, Geelong VIC 3220.",
+    address: "143-149 Ryrie St, Geelong VIC 3220, Australia",
+    parking: "Fuel station parking",
+    mapsLink: "comgooglemaps://?q=143-149+Ryrie+St,+Geelong+VIC+3220,+Australia"
+  },
+  {
+    date: "27 May 2025",
+    time: "06:00 PM",
+    title: "Check-in at Melbourne Hotel",
+    description: "Drop bags, freshen up and relax (return rental car next day).",
+    address: "Melbourne VIC 3000, Australia",
+    parking: "Hotel parking",
+    mapsLink: "comgooglemaps://?q=Melbourne+VIC+3000,+Australia"
+  },
+
+  {
+    date: "28 May 2025",
+    time: "08:30 AM",
+    title: "Light Breakfast at Hotel",
+    description: "Start the day slow and relaxed.",
+    address: "Melbourne VIC 3000, Australia",
+    parking: "Hotel parking",
+    mapsLink: "comgooglemaps://?q=Melbourne+VIC+3000,+Australia"
+  },
+  {
+    date: "28 May 2025",
+    time: "10:30 AM",
+    title: "Stroll at Fitzroy Gardens",
+    description: "Peaceful gardens with historic cottages and great photo spots.",
+    address: "Wellington Parade, East Melbourne VIC 3002, Australia",
+    parking: "Fitzroy Gardens parking",
+    mapsLink: "comgooglemaps://?q=Wellington+Parade,+East+Melbourne+VIC+3002,+Australia"
+  },
+  {
+    date: "28 May 2025",
+    time: "11:00 AM",
+    title: "Visit Islamic Museum of Australia",
+    description: "Explore Islamic faith, art & history | 15A Anderson Rd, Thornbury.",
+    address: "15A Anderson Rd, Thornbury VIC 3071, Australia",
+    parking: "Museum parking",
+    mapsLink: "comgooglemaps://?q=15A+Anderson+Rd,+Thornbury+VIC+3071,+Australia"
+  },
+  {
+    date: "28 May 2025",
+    time: "02:00 PM",
+    title: "Lunch at Sahara Grill",
+    description: "Enjoy halal Middle Eastern cuisine at Sahara Grill.",
+    address: "665 High St, Thornbury VIC 3071, Australia",
+    parking: "Street parking available",
+    mapsLink: "comgooglemaps://?q=665+High+St,+Thornbury+VIC+3071,+Australia"
+  },
+  {
+    date: "28 May 2025",
+    time: "02:30 PM",
+    title: "Visit Melbourne Grand Mosque",
+    description: "One of Melbourne's largest and most beautiful mosques.",
+    address: "140 Wootten Rd, Tarneit VIC 3029, Australia",
+    parking: "Mosque parking",
+    mapsLink: "comgooglemaps://?q=140+Wootten+Rd,+Tarneit+VIC+3029,+Australia"
+  },
+  {
+    date: "28 May 2025",
+    time: "04:00 PM",
+    title: "Free & Easy / Optional Shopping",
+    description: "Emporium or Chadstone for souvenirs and last-minute gifts.",
+    address: "Emporium Melbourne, 287 Lonsdale St, Melbourne VIC 3000, Australia",
+    parking: "Emporium parking",
+    mapsLink: "comgooglemaps://?q=287+Lonsdale+St,+Melbourne+VIC+3000,+Australia"
+  },
+  {
+    date: "28 May 2025",
+    time: "05:30 PM",
+    title: "Rest at Hotel",
+    description: "Freshen up, relax, or prepare bags.",
+    address: "Melbourne VIC 3000, Australia",
+    parking: "Hotel parking",
+    mapsLink: "comgooglemaps://?q=Melbourne+VIC+3000,+Australia"
+  },
+  {
+    date: "28 May 2025",
+    time: "07:00 PM",
+    title: "Final Dinner in Melbourne",
+    description: "Halal seafood or Middle Eastern cuisine in the CBD.",
+    address: "Melbourne VIC 3000, Australia",
+    parking: "Street parking or nearby parking",
+    mapsLink: "comgooglemaps://?q=Melbourne+VIC+3000,+Australia"
+  },
+  {
+    date: "28 May 2025",
+    time: "08:30 PM",
+    title: "Final Packing & Prepare for Departure",
+    description: "Organize luggage, documents, and rest before travel.",
+    address: "Melbourne VIC 3000, Australia",
+    parking: "Hotel parking",
+    mapsLink: "comgooglemaps://?q=Melbourne+VIC+3000,+Australia"
+  },
+
+  {
+    date: "29 May 2025",
+    time: "07:30 AM",
+    title: "Wake Up & Light Breakfast",
+    description: "Final check, early meal at hotel or takeaway.",
+    address: "Melbourne VIC 3000, Australia",
+    parking: "Hotel parking",
+    mapsLink: "comgooglemaps://?q=Melbourne+VIC+3000,+Australia"
+  },
+  {
+    date: "29 May 2025",
+    time: "08:30 AM",
+    title: "Final Packing & Hotel Checkout",
+    description: "Ensure nothing left behind, check out.",
+    address: "Melbourne VIC 3000, Australia",
+    parking: "Hotel parking",
+    mapsLink: "comgooglemaps://?q=Melbourne+VIC+3000,+Australia"
+  },
+  {
+    date: "29 May 2025",
+    time: "09:00 AM",
+    title: "Drive to Airport",
+    description: "30–40 min drive from city to Melbourne Airport.",
+    address: "Melbourne Airport VIC 3045, Australia",
+    parking: "Airport car rental area",
+    mapsLink: "comgooglemaps://?q=Melbourne+Airport+VIC+3045,+Australia"
+  },
+  {
+    date: "29 May 2025",
+    time: "10:00 AM",
+    title: "Return Rental Car (East Coast Car Rentals)",
+    description: "Drop off car at 2 Tarmac Drive, Tullamarine. Shuttle to terminal provided.",
+    address: "2 Tarmac Drive, Tullamarine, Victoria, 3043, Melbourne",
+    parking: "On-site rental return parking",
+    mapsLink: "comgooglemaps://?q=2+Tarmac+Drive,+Tullamarine,+Victoria+3043,+Australia"
+  },
+  {
+    date: "29 May 2025",
+    time: "10:30 AM",
+    title: "Check-in & Luggage Drop",
+    description: "Check in at Qantas counter, drop bags.",
+    address: "Melbourne Airport, VIC 3045, Australia",
+    parking: "Terminal parking",
+    mapsLink: "comgooglemaps://?q=Melbourne+Airport+VIC+3045,+Australia"
+  },
+  {
+    date: "29 May 2025",
+    time: "11:00 AM",
+    title: "Free & Easy at Airport",
+    description: "Have breakfast, buy souvenirs, or pray.",
+    address: "Melbourne Airport, VIC 3045, Australia",
+    parking: "Terminal parking",
+    mapsLink: "comgooglemaps://?q=Melbourne+Airport+VIC+3045,+Australia"
+  },
+  {
+    date: "29 May 2025",
+    time: "12:05 PM",
+    title: "Flight: MEL to SIN (QF036)",
+    description: "Qantas flight to Singapore | Departure from Melbourne T2.",
+    address: "Melbourne Airport, VIC 3045, Australia",
+    parking: "Terminal parking",
+    mapsLink: "comgooglemaps://?q=Melbourne+Airport+VIC+3045,+Australia"
+  },
+  {
+    date: "29 May 2025",
+    time: "06:15 PM",
+    title: "Arrive in Singapore",
+    description: "Arrival at Singapore Changi Airport T1.",
+    address: "Changi Airport, Singapore",
+    parking: "N/A",
+    mapsLink: "comgooglemaps://?q=Singapore+Changi+Airport"
+  },
 
 ];
