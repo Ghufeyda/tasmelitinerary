@@ -5,7 +5,7 @@ const weatherData = [
   { date: "16 May 2025", location: "Hobart, Tasmania", weather: "🌥 Partly cloudy", temperature: "Low: 9°C, High: 14°C", sunrise: "07:22 AM", sunset: "04:57 PM" },
   { date: "17 May 2025", location: "Hobart, Tasmania", weather: "🌧 Showers", temperature: "Low: 8°C, High: 13°C", sunrise: "07:23 AM", sunset: "04:56 PM" },
   { date: "18 May 2025", location: "Hobart, Tasmania", weather: "☀️ Sunny", temperature: "Low: 7°C, High: 15°C", sunrise: "07:24 AM", sunset: "04:55 PM" },
-  { date: "19 May 2025", location: "Hobart, Tasmania (Bruny Island)", weather: "🌥 Partly cloudy", temperature: "Low: 8°C, High: 14°C", sunrise: "07:25 AM", sunset: "04:55 PM" },
+  { date: "19 May 2025", location: "Bruny Island, Tasmania", weather: "🌥 Partly cloudy", temperature: "Low: 8°C, High: 14°C", sunrise: "07:25 AM", sunset: "04:55 PM" },
   { date: "20 May 2025", location: "Coles Bay, Tasmania", weather: "☁️ Cloudy", temperature: "Low: 7°C, High: 12°C", sunrise: "07:26 AM", sunset: "04:54 PM" },
   { date: "21 May 2025", location: "Coles Bay, Tasmania", weather: "🌬️ Windy", temperature: "Low: 6°C, High: 11°C", sunrise: "07:27 AM", sunset: "04:54 PM" },
   { date: "22 May 2025", location: "Launceston, Tasmania", weather: "☁️ Cloudy", temperature: "Low: 5°C, High: 12°C", sunrise: "07:28 AM", sunset: "04:54 PM" },
