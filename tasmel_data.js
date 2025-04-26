@@ -1,7 +1,7 @@
 const itineraryName = "Tasmania - Melbourne Trip";
 
 const weatherData = [
-    { date: "15 May 2025", location: "Changi Airport, Singapore", weather: "☀️ Mostly clear", temperature: "Low: 27°C, High: 30°C", sunrise: "06:56 AM", sunset: "07:05 PM" },
+  { date: "15 May 2025", location: "Changi Airport, Singapore", weather: "☀️ Mostly clear", temperature: "Low: 27°C, High: 30°C", sunrise: "06:56 AM", sunset: "07:05 PM" },
   { date: "16 May 2025", location: "Hobart, Tasmania", weather: "🌥 Partly cloudy", temperature: "Low: 9°C, High: 14°C", sunrise: "07:22 AM", sunset: "04:57 PM" },
   { date: "17 May 2025", location: "Hobart, Tasmania", weather: "🌧 Showers", temperature: "Low: 8°C, High: 13°C", sunrise: "07:23 AM", sunset: "04:56 PM" },
   { date: "18 May 2025", location: "Hobart, Tasmania", weather: "☀️ Sunny", temperature: "Low: 7°C, High: 15°C", sunrise: "07:24 AM", sunset: "04:55 PM" },
@@ -17,6 +17,7 @@ const weatherData = [
   { date: "28 May 2025", location: "Melbourne, Victoria", weather: "☀️ Sunny", temperature: "Low: 19°C, High: 21°C", sunrise: "07:26 AM", sunset: "05:07 PM" },
   { date: "29 May 2025", location: "Melbourne, Victoria", weather: "🌤 Partly cloudy", temperature: "Low: 20°C, High: 22°C", sunrise: "07:26 AM", sunset: "05:07 PM" }
 ];
+
 const itineraryData = [
     { date: "15 May 2025", time: "08:15 PM", title: "Leave BB West Terra", description: "Travel to Changi Airport T1 (approx. 45 mins)", address: "", parking: "", mapsLink: "" },
     { date: "15 May 2025", time: "09:00 PM", title: "Arrive at Changi Airport T1", description: "Target 90 mins before check-in closes", address: "Changi Airport Terminal 1, Singapore", parking: "", mapsLink: "comgooglemaps://?q=Changi+Airport+Terminal+1+Singapore" },
