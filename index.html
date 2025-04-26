@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tasmania - Melbourne Trip</title>
+    <title id="page-title"></title> <!-- Set dynamic title -->
     <style>
         @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
@@ -104,7 +104,7 @@
         .date-header .date {
             font-weight: medium;
             color: #333;
-            margin-right: 8px;
+            margin-right: 5px;
             /* Strong color for date */
         }
 
@@ -224,7 +224,7 @@
     <div class="container">
         <!-- Header with title -->
         <div class="header">
-            <div class="header-title">Tasmania - Melbourne Trip</div>
+            <div class="header-title" id="header-title"></div>
         </div>
 
         <!-- Itinerary content goes here -->
@@ -233,6 +233,15 @@
 
     <script src="tasmel_data.js"></script>
     <script>
+
+        // Set the page title dynamically from itineraryName
+        const pageTitle = document.getElementById('page-title');
+        const headerTitle = document.getElementById('header-title');
+
+        // Assuming itineraryName and other data are available in tasmel_data.js
+        pageTitle.textContent = itineraryName; // Set the page title from itineraryName in tasmel_data.js
+        headerTitle.textContent = itineraryName; // Set the header title from itineraryName in tasmel_data.js
+
         const container = document.getElementById('itinerary-container');
 
         weatherData.forEach((day, index) => {
@@ -244,7 +253,7 @@
   <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
     <div style="display: flex; flex-direction: row; align-items: center;">
     <span class="date" style="font-weight: bold; color: #333;">${day.date}</span>
-     <span class="location-weather" style="color: #888; margin-left: 10px;">(${day.location} | ${day.weather})</span>
+     <span class="location-weather" style="color: #888; margin-left: 10px;">${day.location}</span>
     </div>
     <span class="material-icons" style="color: #00A878;">expand_more</span>
   </div>
@@ -254,7 +263,7 @@
 
             const weatherDiv = document.createElement('div');
             weatherDiv.className = 'weather';
-            weatherDiv.textContent = `${day.temperature} | Sunrise: ${day.sunrise} | Sunset: ${day.sunset}`;
+            weatherDiv.textContent = `${day.weather} | ${day.temperature} | Sunrise: ${day.sunrise} | Sunset: ${day.sunset}`;
 
             const activitiesDiv = document.createElement('div');
             activitiesDiv.className = 'activities';
