@@ -1,21 +1,20 @@
 const weatherData = [
-    { date: "15 May 2025", location: "Singapore", weather: "\ud83c\udf24\ufe0f Mostly clear", temperature: "26\u00b0C – 30\u00b0C", sunrise: "06:56", sunset: "19:05" },
-    { date: "16 May 2025", location: "Hobart", weather: "\u26c5 Partly cloudy", temperature: "9\u00b0C – 14\u00b0C", sunrise: "07:22", sunset: "16:57" },
-    { date: "17 May 2025", location: "Hobart", weather: "\ud83c\udf27\ufe0f Showers", temperature: "8\u00b0C – 13\u00b0C", sunrise: "07:23", sunset: "16:56" },
-    { date: "18 May 2025", location: "Hobart", weather: "\u2600\ufe0f Sunny", temperature: "7\u00b0C – 15\u00b0C", sunrise: "07:24", sunset: "16:55" },
-    { date: "19 May 2025", location: "Hobart", weather: "\ud83c\udf24\ufe0f Partly cloudy", temperature: "8\u00b0C – 14\u00b0C", sunrise: "07:25", sunset: "16:55" },
-    { date: "20 May 2025", location: "Coles Bay", weather: "\u2601\ufe0f Cloudy", temperature: "7\u00b0C – 12\u00b0C", sunrise: "07:26", sunset: "16:54" },
-    { date: "21 May 2025", location: "Coles Bay", weather: "\ud83c\udf2c\ufe0f Windy", temperature: "6\u00b0C – 11\u00b0C", sunrise: "07:27", sunset: "16:54" },
-    { date: "22 May 2025", location: "Launceston", weather: "\u2601\ufe0f Cloudy", temperature: "5\u00b0C – 12\u00b0C", sunrise: "07:28", sunset: "16:54" },
-    { date: "23 May 2025", location: "Launceston", weather: "\ud83c\udf27\ufe0f Rain", temperature: "5\u00b0C – 11\u00b0C", sunrise: "07:28", sunset: "16:53" },
-    { date: "24 May 2025", location: "Melbourne", weather: "\u2600\ufe0f Sunny", temperature: "10\u00b0C – 16\u00b0C", sunrise: "07:23", sunset: "17:10" },
-    { date: "25 May 2025", location: "Melbourne", weather: "\ud83c\udf24\ufe0f Partly cloudy", temperature: "11\u00b0C – 17\u00b0C", sunrise: "07:24", sunset: "17:09" },
-    { date: "26 May 2025", location: "Melbourne", weather: "\ud83c\udf27\ufe0f Showers", temperature: "9\u00b0C – 14\u00b0C", sunrise: "07:25", sunset: "17:08" },
-    { date: "27 May 2025", location: "Melbourne", weather: "\u2601\ufe0f Cloudy", temperature: "10\u00b0C – 15\u00b0C", sunrise: "07:25", sunset: "17:08" },
-    { date: "28 May 2025", location: "Melbourne", weather: "\ud83c\udf2c\ufe0f Windy", temperature: "8\u00b0C – 13\u00b0C", sunrise: "07:26", sunset: "17:07" },
-    { date: "29 May 2025", location: "Melbourne", weather: "\u2600\ufe0f Sunny", temperature: "7\u00b0C – 14\u00b0C", sunrise: "07:26", sunset: "17:07" }
+    { date: "15 May 2025", location: "Changi Airport, Singapore", weather: "☀️ Mostly clear", temperature: "Low: 27°C, High: 30°C", sunrise: "06:56 AM", sunset: "07:05 PM" },
+  { date: "16 May 2025", location: "Hobart, Tasmania", weather: "🌥 Partly cloudy", temperature: "Low: 9°C, High: 14°C", sunrise: "07:22 AM", sunset: "04:57 PM" },
+  { date: "17 May 2025", location: "Hobart, Tasmania", weather: "🌧 Showers", temperature: "Low: 8°C, High: 13°C", sunrise: "07:23 AM", sunset: "04:56 PM" },
+  { date: "18 May 2025", location: "Hobart, Tasmania", weather: "☀️ Sunny", temperature: "Low: 7°C, High: 15°C", sunrise: "07:24 AM", sunset: "04:55 PM" },
+  { date: "19 May 2025", location: "Hobart, Tasmania (for Bruny Island trip)", weather: "🌥 Partly cloudy", temperature: "Low: 8°C, High: 14°C", sunrise: "07:25 AM", sunset: "04:55 PM" },
+  { date: "20 May 2025", location: "Coles Bay, Tasmania", weather: "☁️ Cloudy", temperature: "Low: 7°C, High: 12°C", sunrise: "07:26 AM", sunset: "04:54 PM" },
+  { date: "21 May 2025", location: "Coles Bay, Tasmania", weather: "🌬️ Windy", temperature: "Low: 6°C, High: 11°C", sunrise: "07:27 AM", sunset: "04:54 PM" },
+  { date: "22 May 2025", location: "Launceston, Tasmania", weather: "☁️ Cloudy", temperature: "Low: 5°C, High: 12°C", sunrise: "07:28 AM", sunset: "04:54 PM" },
+  { date: "23 May 2025", location: "Launceston, Tasmania", weather: "🌧 Rain", temperature: "Low: 5°C, High: 11°C", sunrise: "07:28 AM", sunset: "04:53 PM" },
+  { date: "24 May 2025", location: "Melbourne, Victoria", weather: "☀️ Sunny", temperature: "Low: 10°C, High: 16°C", sunrise: "07:23 AM", sunset: "05:10 PM" },
+  { date: "25 May 2025", location: "Apollo Bay, Victoria", weather: "🌤 Partly cloudy", temperature: "Low: 11°C, High: 17°C", sunrise: "07:24 AM", sunset: "05:09 PM" },
+  { date: "26 May 2025", location: "Apollo Bay, Victoria", weather: "🌧 Showers", temperature: "Low: 9°C, High: 14°C", sunrise: "07:25 AM", sunset: "05:08 PM" },
+  { date: "27 May 2025", location: "Port Campbell, Victoria", weather: "🌥 Cloudy", temperature: "Low: 10°C, High: 15°C", sunrise: "07:25 AM", sunset: "05:08 PM" },
+  { date: "28 May 2025", location: "Melbourne, Victoria", weather: "☀️ Sunny", temperature: "Low: 19°C, High: 21°C", sunrise: "07:26 AM", sunset: "05:07 PM" },
+  { date: "29 May 2025", location: "Melbourne, Victoria", weather: "🌤 Partly cloudy", temperature: "Low: 20°C, High: 22°C", sunrise: "07:26 AM", sunset: "05:07 PM" }
 ];
-
 const itineraryData = [
     { date: "15 May 2025", time: "08:15 PM", title: "Leave BB West Terra", description: "Travel to Changi Airport T1 (approx. 45 mins)", address: "", parking: "", mapsLink: "" },
     { date: "15 May 2025", time: "09:00 PM", title: "Arrive at Changi Airport T1", description: "Target 90 mins before check-in closes", address: "Changi Airport Terminal 1, Singapore", parking: "", mapsLink: "comgooglemaps://?q=Changi+Airport+Terminal+1+Singapore" },
