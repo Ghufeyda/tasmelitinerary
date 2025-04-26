@@ -1,3 +1,5 @@
+const itineraryName = "Tasmania - Melbourne Trip";
+
 const weatherData = [
     { date: "15 May 2025", location: "Changi Airport, Singapore", weather: "☀️ Mostly clear", temperature: "Low: 27°C, High: 30°C", sunrise: "06:56 AM", sunset: "07:05 PM" },
   { date: "16 May 2025", location: "Hobart, Tasmania", weather: "🌥 Partly cloudy", temperature: "Low: 9°C, High: 14°C", sunrise: "07:22 AM", sunset: "04:57 PM" },
