@@ -1,118 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Itinerary UI Demo</title>
-  <style>
-    @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasmania - Melbourne Trip</title>
+    <style>
+        @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-    body { font-family: Arial, sans-serif; background: #f8f9fa; margin: 0; padding: 10px; }
-    .container { max-width: 800px; margin: auto; background: #fff; padding: 15px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
-    .date-header { font-size: 1.2em; margin: 10px 0; color: #222; cursor: pointer; background: #e3f2fd; padding: 10px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; transition: background 0.3s ease; }
-    .date-header:hover { background: #d0e7fb; }
-    .material-icons { font-size: 1.4em; color: #0d6efd; }
-    .weather { font-size: 0.9em; color: #555; margin: 8px 0 12px; font-style: italic; }
-    .activities { display: none; margin-bottom: 20px; animation: fadeIn 0.3s ease; }
-    .activity { border-left: 4px solid #0d6efd; padding-left: 10px; margin-bottom: 15px; background: #f9f9f9; padding: 10px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
-    .time { font-weight: bold; color: #0d6efd; font-size: 1em; }
-    .title { font-size: 1.05em; margin: 4px 0; color: #333; }
-    .description { font-size: 0.9em; color: #444; margin-bottom: 4px; }
-    .address, .parking { font-size: 0.85em; color: #666; }
-    .maps-link { font-size: 0.85em; color: #0d6efd; text-decoration: none; display: inline-block; margin-top: 4px; }
-    .maps-link:hover { text-decoration: underline; }
-    .header { 
-      display: flex; 
-      justify-content: space-between; 
-      align-items: center; 
-      background-color: #6200ea; 
-      color: #fff; 
-      padding: 20px 15px; 
-      border-radius: 12px 12px 0 0; 
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
-      margin-bottom: 20px;
-    }
-    .header-title {
-      font-size: 1.8em;
-      font-weight: 500;
-      color: white;
-    }
-    .header-icon {
-      font-size: 2em;
-      cursor: pointer;
-      transition: transform 0.3s ease;
-    }
-    .header-icon:hover {
-      transform: rotate(180deg);
-    }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f8f9fa;
+            margin: 0;
+            padding: 10px;
+        }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(-5px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
 
-    @media (max-width: 600px) {
-      .container { padding: 10px; }
-      .date-header { font-size: 1em; padding: 8px; }
-      .weather { font-size: 0.85em; }
-      .activity { padding: 8px; margin-bottom: 12px; }
-      .time { font-size: 0.95em; }
-      .title { font-size: 1em; }
-      .description, .address, .parking, .maps-link { font-size: 0.8em; }
-      .header-title { font-size: 1.5em; }
-      .header-icon { font-size: 1.5em; }
-    }
-  </style>
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #00A878;
+            color: white;
+            padding: 20px 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+        }
+
+        .header-title {
+            font-size: 1.8em;
+            font-weight: 500;
+            color: #D8F1A0;
+        }
+
+        .header-icon {
+            font-size: 2em;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .header-icon:hover {
+            transform: rotate(180deg);
+        }
+
+        .date-header {
+            width: 100%;
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: #222;
+            cursor: pointer;
+            background: #FFF1D0;
+            /* Light yellow for date header */
+            padding: 12px 16px;
+            border-radius: 12px;
+            /* More rounded corners */
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            /* Align content to the left, icon to the right */
+            align-items: center;
+            transition: background 0.3s ease, box-shadow 0.3s ease;
+            /* Add shadow effect on hover */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Subtle shadow for depth */
+        }
+
+        .date-header:hover {
+            background: #F3C178;
+            /* Darker yellow on hover */
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+            /* Stronger shadow on hover for emphasis */
+        }
+
+        .date-header .material-icons {
+            font-size: 1.6em;
+            color: #00A878;
+            align-items: center;
+            justify-content: center;
+            /* Green for the icon */
+        }
+
+        .date-header .location {
+            font-weight: 500;
+            /* Slightly bolder location text */
+            color: #888;
+            /* Lighter grey for location */
+            justify-content: center;
+        }
+
+        .date-header .weather {
+            color: #bbb;
+            /* Lighter grey for weather */
+            justify-content: center;
+        }
+
+        .date-header .date {
+            font-weight: medium;
+            color: #333;
+            margin-right: 8px;
+            /* Strong color for date */
+        }
+
+        .activities {
+            display: none;
+            margin-bottom: 20px;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .activity {
+            border-left: 4px solid #0d6efd;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            background: #f9f9f9;
+            padding: 10px;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+
+        .time {
+            font-weight: bold;
+            color: #0d6efd;
+            font-size: 1em;
+        }
+
+        .title {
+            font-size: 1.05em;
+            margin: 4px 0;
+            color: #333;
+        }
+
+        .description {
+            font-size: 0.9em;
+            color: #444;
+            margin-bottom: 4px;
+        }
+
+        .weather {
+            margin: 8px 0 8px 0;
+        }
+
+        .address,
+        .parking {
+            font-size: 0.85em;
+            color: #666;
+        }
+
+        .maps-link {
+            font-size: 0.85em;
+            color: #0d6efd;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 4px;
+        }
+
+        .maps-link:hover {
+            text-decoration: underline;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-5px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+
+            .date-header {
+                font-size: 1em;
+                padding: 8px;
+            }
+
+            .weather {
+                font-size: 0.85em;
+            }
+
+            .activity {
+                padding: 8px;
+                margin-bottom: 12px;
+            }
+
+            .time {
+                font-size: 0.95em;
+            }
+
+            .title {
+                font-size: 1em;
+            }
+
+            .description,
+            .address,
+            .parking,
+            .maps-link {
+                font-size: 0.8em;
+            }
+
+            .header-title {
+                font-size: 1.5em;
+            }
+
+            .header-icon {
+                font-size: 1.5em;
+            }
+        }
+    </style>
 </head>
 <body>
-<div class="header">
-    <div class="header-title">Tasmania - Melbourne Trip</div>
-    <span class="material-icons header-icon">expand_more</span>
+    <div class="container">
+        <!-- Header with title -->
+        <div class="header">
+            <div class="header-title">Tasmania - Melbourne Trip</div>
+        </div>
+
+        <!-- Itinerary content goes here -->
+        <div id="itinerary-container"></div>
+    </div>
+
+    <script src="tasmel_data.js"></script>
+    <script>
+        const container = document.getElementById('itinerary-container');
+
+        weatherData.forEach((day, index) => {
+            const dateHeader = document.createElement('div');
+            dateHeader.className = 'date-header';
+            // Include the date, location, and weather in the header
+
+            dateHeader.innerHTML = `
+  <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+    <div style="display: flex; flex-direction: row; align-items: center;">
+    <span class="date" style="font-weight: bold; color: #333;">${day.date}</span>
+     <span class="location-weather" style="color: #888; margin-left: 10px;">(${day.location} | ${day.weather})</span>
+    </div>
+    <span class="material-icons" style="color: #00A878;">expand_more</span>
   </div>
-  
-  <div class="container" id="itinerary-container"></div>
+`;
+            dateHeader.dataset.index = index;
+            container.appendChild(dateHeader);
 
-  <script src="tasmel_data.js"></script>
-<script>
-    const container = document.getElementById('itinerary-container');
+            const weatherDiv = document.createElement('div');
+            weatherDiv.className = 'weather';
+            weatherDiv.textContent = `${day.temperature} | Sunrise: ${day.sunrise} | Sunset: ${day.sunset}`;
 
-    weatherData.forEach((day, index) => {
-        const dateHeader = document.createElement('div');
-        dateHeader.className = 'date-header';
-        dateHeader.innerHTML = `${day.date} <span class="material-icons">expand_more</span>`;
-        dateHeader.dataset.index = index;
-        container.appendChild(dateHeader);
+            const activitiesDiv = document.createElement('div');
+            activitiesDiv.className = 'activities';
+            activitiesDiv.appendChild(weatherDiv);
 
-        const weatherDiv = document.createElement('div');
-        weatherDiv.className = 'weather';
-        weatherDiv.textContent = `${day.weather}, ${day.temperature} | Sunrise: ${day.sunrise} | Sunset: ${day.sunset}`;
-
-        const activitiesDiv = document.createElement('div');
-        activitiesDiv.className = 'activities';
-        activitiesDiv.appendChild(weatherDiv);
-
-        itineraryData.filter(item => item.date === day.date).forEach(activity => {
-            const activityDiv = document.createElement('div');
-            activityDiv.className = 'activity';
-            activityDiv.innerHTML = `
+            itineraryData.filter(item => item.date === day.date).forEach(activity => {
+                const activityDiv = document.createElement('div');
+                activityDiv.className = 'activity';
+                activityDiv.innerHTML = `
               <div class="time">${activity.time}</div>
               <div class="title">${activity.title}</div>
               <div class="description">${activity.description}</div>
               ${activity.address ? `<div class="address">${activity.address}</div>` : ''}
               ${activity.mapsLink ? `<a class="maps-link" href="${activity.mapsLink}" target="_blank">Open in Maps</a>` : ''}
             `;
-            activitiesDiv.appendChild(activityDiv);
-        });
+                activitiesDiv.appendChild(activityDiv);
+            });
 
-        container.appendChild(activitiesDiv);
+            container.appendChild(activitiesDiv);
 
-        dateHeader.addEventListener('click', () => {
-            const isVisible = activitiesDiv.style.display === 'block';
-            activitiesDiv.style.display = isVisible ? 'none' : 'block';
-            const arrow = dateHeader.querySelector('.material-icons');
-            arrow.textContent = isVisible ? 'expand_more' : 'expand_less';
+            dateHeader.addEventListener('click', () => {
+                const isVisible = activitiesDiv.style.display === 'block';
+                activitiesDiv.style.display = isVisible ? 'none' : 'block';
+                const arrow = dateHeader.querySelector('.material-icons');
+                arrow.textContent = isVisible ? 'expand_more' : 'expand_less';
+            });
         });
-    });
-</script>
+    </script>
 </body>
 </html>
