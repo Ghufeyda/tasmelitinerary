@@ -7,49 +7,70 @@
     <style>
         @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+        /* Base Styles */
         body {
             font-family: 'Roboto', sans-serif;
             background: #f8f9fa;
             margin: 0;
-            padding: 10px;
         }
 
+        /* Container */
         .container {
-            max-width: 800px;
+            max-width: 100%;
             margin: auto;
             background: #fff;
             padding: 15px;
-            border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
 
+        /* Header with Symmetrical Icons */
         .header {
             display: flex;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
+            /* Center title */
             background-color: #00A878;
             color: white;
-            padding: 20px 15px;
-            border-radius: 10px;
+            padding: 15px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            margin-bottom: 15px;
+            position: relative;
+            /* For positioning icons */
         }
 
+        /* Centered Title */
         .header-title {
-            font-size: 1.8em;
+            font-size: 1.6em;
             font-weight: 500;
             color: #D8F1A0;
+            text-align: center;
         }
 
-        .header-icon {
-            font-size: 2em;
+        /* Left & Right Icons */
+        .left-icons,
+        .right-icons {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .left-icons {
+            left: 15px;
+        }
+
+        .right-icons {
+            right: 15px;
+        }
+
+        .left-icons .material-icons,
+        .right-icons .material-icons {
+            font-size: 1.8em;
+            color: #ffffff;
             cursor: pointer;
-            transition: transform 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
-        .header-icon:hover {
-            transform: rotate(180deg);
-        }
 
         .date-header {
             font-size: 1.2em;
@@ -221,11 +242,21 @@
     </style>
 </head>
 <body>
+
+    <div class="header">
+        <div class="left-icons">
+            <span class="material-icons">description</span>
+        </div>
+        <div class="header-title" id="header-title">
+            <a href="https://your-important-documents-link.com" target="_blank"></a>
+        </div>
+        <div class="right-icons">
+            <span class="material-icons">attach_money</span>
+        </div>
+    </div>
     <div class="container">
         <!-- Header with title -->
-        <div class="header">
-            <div class="header-title" id="header-title"></div>
-        </div>
+
 
         <!-- Itinerary content goes here -->
         <div id="itinerary-container"></div>
@@ -241,6 +272,15 @@
         // Assuming itineraryName and other data are available in tasmel_data.js
         pageTitle.textContent = itineraryName; // Set the page title from itineraryName in tasmel_data.js
         headerTitle.textContent = itineraryName; // Set the header title from itineraryName in tasmel_data.js
+
+        document.querySelector('.left-icons .material-icons').addEventListener('click', () => {
+            window.open('https://drive.google.com/drive/folders/1312vKbGWC8YODB3xkAU8bGEzb9IAta1S?usp=drive_link', '_blank');
+        });
+
+
+        document.querySelector('.right-icons .material-icons').addEventListener('click', () => {
+            window.open('https://drive.google.com/drive/folders/1s52FAzFNnnCUhAO3F-fbvcxk-co6N5pP?usp=drive_link', '_blank');
+        });
 
         const container = document.getElementById('itinerary-container');
 
