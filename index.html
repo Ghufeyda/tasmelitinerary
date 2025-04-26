@@ -21,6 +21,30 @@
     .address, .parking { font-size: 0.85em; color: #666; }
     .maps-link { font-size: 0.85em; color: #0d6efd; text-decoration: none; display: inline-block; margin-top: 4px; }
     .maps-link:hover { text-decoration: underline; }
+    .header { 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      background-color: #6200ea; 
+      color: #fff; 
+      padding: 20px 15px; 
+      border-radius: 12px 12px 0 0; 
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+      margin-bottom: 20px;
+    }
+    .header-title {
+      font-size: 1.8em;
+      font-weight: 500;
+      color: white;
+    }
+    .header-icon {
+      font-size: 2em;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .header-icon:hover {
+      transform: rotate(180deg);
+    }
 
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(-5px); }
@@ -35,10 +59,17 @@
       .time { font-size: 0.95em; }
       .title { font-size: 1em; }
       .description, .address, .parking, .maps-link { font-size: 0.8em; }
+      .header-title { font-size: 1.5em; }
+      .header-icon { font-size: 1.5em; }
     }
   </style>
 </head>
 <body>
+<div class="header">
+    <div class="header-title">Tasmania - Melbourne Trip</div>
+    <span class="material-icons header-icon">expand_more</span>
+  </div>
+  
   <div class="container" id="itinerary-container"></div>
 
   <script src="tasmel_data.js"></script>
