@@ -258,14 +258,14 @@ const itineraryData = [
       "On-site at valet car park | Opposite Gate 1, near baggage carousel. Walk through valet car park.",
     mapsLink: "comgooglemaps://?q=Hobart+Airport+Dr",
   },
-  {
-    date: "16 May 2025",
-    time: "05:00 PM",
-    title: "Check-in to Hotel",
-    description: "Check-in at Alabama Hotel Hobart",
-    address: "72 Liverpool St, Hobart TAS 7000, Australia",
-    parking: "Nearby street parking",
-    mapsLink: "comgooglemaps://?q=Alabama+Hotel+Hobart",
+  { 
+    date: "16 May 2025", 
+    time: "05:00 PM", 
+    title: "Check-in to Bay View Villas", 
+    description: "Check-in at Bay View Villas", 
+    address: "34 Poets Rd, West Hobart TAS 7000, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=Bay+View+Villas+Hobart" 
   },
   {
     date: "16 May 2025",
@@ -277,14 +277,14 @@ const itineraryData = [
     mapsLink:
       "comgooglemaps://?q=323+Elizabeth+St,+North+Hobart+TAS+7000,+Australia",
   },
-  {
-    date: "16 May 2025",
-    time: "08:00 PM",
-    title: "Return to Hotel and Rest",
-    description: "Relax and prepare for the next day's activities",
-    address: "72 Liverpool St, Hobart TAS 7000, Australia",
-    parking: "Nearby street parking",
-    mapsLink: "comgooglemaps://?q=Alabama+Hotel+Hobart",
+  { 
+    date: "16 May 2025", 
+    time: "08:00 PM", 
+    title: "Return to Bay View Villas", 
+    description: "Relax and prepare for the next day's activities", 
+    address: "34 Poets Rd, West Hobart TAS 7000, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=Bay+View+Villas+Hobart" 
   },
 
   {
@@ -370,26 +370,23 @@ const itineraryData = [
     mapsLink:
       "comgooglemaps://?q=323+Elizabeth+St,+North+Hobart+TAS+7000,+Australia",
   },
-  {
-    date: "17 May 2025",
-    time: "08:30 PM",
-    title: "Return to St Ives Apartments",
-    description: "Pack for fishing trip and rest",
-    address: "67 St Georges Terrace, Battery Point TAS 7004, Australia",
-    parking: "Free private parking for guests",
-    mapsLink:
-      "comgooglemaps://?q=67+St+Georges+Terrace,+Battery+Point+TAS+7004,+Australia",
+  { 
+    date: "17 May 2025", 
+    time: "08:30 PM", 
+    title: "Return to Bay View Villas", 
+    description: "Pack for fishing trip and rest", 
+    address: "34 Poets Rd, West Hobart TAS 7000, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=Bay+View+Villas+Hobart" 
   },
-
   {
     date: "18 May 2025",
     time: "06:30 AM",
-    title: "Wake up at St Ives Apartments",
+    title: "Wake up at Bay View Villas",
     description: "Shower and prep for the day",
-    address: "67 St Georges Terrace, Battery Point TAS 7004, Australia",
-    parking: "Free private parking for guests",
-    mapsLink:
-      "comgooglemaps://?q=67+St+Georges+Terrace,+Battery+Point+TAS+7004,+Australia",
+    address: "34 Poets Rd, West Hobart TAS 7000, Australia",
+    parking: "On-site parking available",
+    mapsLink: "comgooglemaps://?q=Bay+View+Villas+Hobart"
   },
   {
     date: "18 May 2025",
@@ -422,11 +419,10 @@ const itineraryData = [
     date: "18 May 2025",
     time: "01:00 PM",
     title: "Lunch at Apartment",
-    description: "Cook and enjoy your fresh catch at St Ives",
-    address: "67 St Georges Terrace, Battery Point TAS 7004, Australia",
-    parking: "Free private parking for guests",
-    mapsLink:
-      "comgooglemaps://?q=67+St+Georges+Terrace,+Battery+Point+TAS+7004,+Australia",
+    description: "Cook and enjoy your fresh catch at Bay View Villas",
+    address: "34 Poets Rd, West Hobart TAS 7000, Australia",
+    parking: "On-site parking available",
+    mapsLink: "comgooglemaps://?q=Bay+View+Villas+Hobart"
   },
   {
     date: "18 May 2025",
@@ -630,14 +626,14 @@ const itineraryData = [
     parking: "On-site parking",
     mapsLink: "comgooglemaps://?q=Kate’s+Berry+Farm,+Swansea+TAS",
   },
-  {
-    date: "20 May 2025",
-    time: "12:00 PM",
-    title: "Arrive at Coles Bay Accommodation",
-    description: "Check-in and relax",
-    address: "Reserve Rd, Coles Bay TAS 7215, Australia",
-    parking: "On-site parking",
-    mapsLink: "comgooglemaps://?q=Reserve+Rd,+Coles+Bay+TAS+7215,+Australia",
+  { 
+    date: "20 May 2025", 
+    time: "12:00 PM", 
+    title: "Check-in to Iluka Holiday Centre", 
+    description: "Check-in at Iluka Holiday Centre, Coles Bay", 
+    address: "Reserve Rd, Coles Bay TAS 7215, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=Iluka+Holiday+Centre+Coles+Bay" 
   },
   {
     date: "20 May 2025",
@@ -817,14 +813,14 @@ const itineraryData = [
     parking: "Street parking",
     mapsLink: "comgooglemaps://?q=High+St,+Campbell+Town+TAS+7210,+Australia",
   },
-  {
-    date: "22 May 2025",
-    time: "02:30 PM",
-    title: "Arrive in Launceston & check-in",
-    description: "Settle into your hotel",
-    address: "Launceston TAS 7250, Australia",
-    parking: "Hotel parking",
-    mapsLink: "comgooglemaps://?q=Launceston+TAS+7250,+Australia",
+  { 
+    date: "22 May 2025", 
+    time: "02:30 PM", 
+    title: "Check-in to Hotel Grand Chancellor", 
+    description: "Settle into your hotel in Launceston", 
+    address: "29 Cameron St, Launceston TAS 7250, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=Hotel+Grand+Chancellor+Launceston" 
   },
   {
     date: "22 May 2025",
@@ -966,11 +962,10 @@ const itineraryData = [
     date: "23 May 2025",
     time: "08:30 PM",
     title: "Return to Hotel & Rest",
-    description:
-      "Return to Hotel Verge or similar – rest and prepare for morning flight",
-    address: "Launceston TAS 7250, Australia",
-    parking: "Hotel parking",
-    mapsLink: "comgooglemaps://?q=Launceston+TAS+7250,+Australia",
+    description: "Return to Hotel Grand Chancellor Launceston – rest and prepare for morning flight",
+    address: "29 Cameron St, Launceston TAS 7250, Australia",
+    parking: "On-site parking available",
+    mapsLink: "comgooglemaps://?q=Hotel+Grand+Chancellor+Launceston"
   },
 
   {
@@ -1038,15 +1033,14 @@ const itineraryData = [
     mapsLink:
       "comgooglemaps://?q=322-326+Coventry+St,+South+Melbourne+VIC+3205,+Australia",
   },
-  {
-    date: "24 May 2025",
-    time: "03:30 PM",
-    title: "Check-in at Melbourne Hotel",
-    description:
-      "Arrive at your hotel in Melbourne, drop off luggage, and freshen up.",
-    address: "Melbourne VIC 3000, Australia",
-    parking: "Hotel parking",
-    mapsLink: "comgooglemaps://?q=Melbourne+VIC+3000,+Australia",
+  { 
+    date: "24 May 2025", 
+    time: "03:30 PM", 
+    title: "Check-in to Nightcap at Glengala Hotel", 
+    description: "Drop off luggage and rest", 
+    address: "214 Glengala Rd, Sunshine West VIC 3020, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=Nightcap+at+Glengala+Hotel" 
   },
   {
     date: "24 May 2025",
@@ -1118,14 +1112,14 @@ const itineraryData = [
     parking: "Street parking available",
     mapsLink: "comgooglemaps://?q=21+Pascoe+St,+Apollo+Bay+VIC+3233,+Australia",
   },
-  {
-    date: "25 May 2025",
-    time: "02:30 PM",
-    title: "Arrive at Accommodation in Apollo Bay",
-    description: "Check-in early for seaside rest.",
-    address: "Apollo Bay VIC 3233, Australia",
-    parking: "Accommodation parking",
-    mapsLink: "comgooglemaps://?q=Apollo+Bay+VIC+3233,+Australia",
+  { 
+    date: "25 May 2025", 
+    time: "02:30 PM", 
+    title: "Check-in to The Apollo", 
+    description: "Relax and enjoy seaside views", 
+    address: "169 Great Ocean Rd, Apollo Bay VIC 3233, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=The+Apollo+Apollo+Bay" 
   },
   {
     date: "25 May 2025",
@@ -1219,14 +1213,14 @@ const itineraryData = [
     mapsLink:
       "comgooglemaps://?q=12+Apostles+Visitor+Centre,+Great+Ocean+Rd,+Princetown+VIC+3269,+Australia",
   },
-  {
-    date: "26 May 2025",
-    time: "04:00 PM",
-    title: "Check-in at Port Campbell Stay",
-    description: "Unwind and settle in.",
-    address: "Port Campbell VIC 3269, Australia",
-    parking: "Accommodation parking",
-    mapsLink: "comgooglemaps://?q=Port+Campbell+VIC+3269,+Australia",
+  { 
+    date: "26 May 2025", 
+    time: "04:00 PM", 
+    title: "Check-in to Southern Ocean Motor Inn", 
+    description: "Unwind and settle in", 
+    address: "2 Lord St, Port Campbell VIC 3269, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=Southern+Ocean+Motor+Inn+Port+Campbell" 
   },
   {
     date: "26 May 2025",
@@ -1315,15 +1309,14 @@ const itineraryData = [
     mapsLink:
       "comgooglemaps://?q=143-149+Ryrie+St,+Geelong+VIC+3220,+Australia",
   },
-  {
-    date: "27 May 2025",
-    time: "06:00 PM",
-    title: "Check-in at Melbourne Hotel",
-    description:
-      "Drop bags, freshen up and relax (return rental car next day).",
-    address: "Melbourne VIC 3000, Australia",
-    parking: "Hotel parking",
-    mapsLink: "comgooglemaps://?q=Melbourne+VIC+3000,+Australia",
+  { 
+    date: "27 May 2025", 
+    time: "06:00 PM", 
+    title: "Check-in to Melbourne City Apartment Hotel", 
+    description: "Drop bags, freshen up and relax", 
+    address: "475 Spencer St, West Melbourne VIC 3003, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=Melbourne+City+Apartment+Hotel" 
   },
 
   {
