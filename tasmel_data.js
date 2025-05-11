@@ -452,26 +452,24 @@ const itineraryData = [
     parking: "Salamanca car park",
     mapsLink: "comgooglemaps://?q=Salamanca+Square,+Hobart+TAS+7000,+Australia",
   },
-  {
+{
     date: "18 May 2025",
     time: "08:30 PM",
-    title: "Return to St Ives Apartments",
+    title: "Return to Bay View Villas",
     description: "Rest early for Bruny Island trip next day",
-    address: "67 St Georges Terrace, Battery Point TAS 7004, Australia",
-    parking: "Free private parking for guests",
-    mapsLink:
-      "comgooglemaps://?q=67+St+Georges+Terrace,+Battery+Point+TAS+7004,+Australia",
-  },
-  {
+    address: "34 Poets Rd, West Hobart TAS 7000, Australia",
+    parking: "On-site parking available",
+    mapsLink: "comgooglemaps://?q=Bay+View+Villas+Hobart"
+},
+{
     date: "19 May 2025",
     time: "06:00 AM",
     title: "Light Breakfast",
-    description: "At St Ives Apartments or pre-packed",
-    address: "67 St Georges Terrace, Battery Point TAS 7004, Australia",
-    parking: "Free private parking for guests",
-    mapsLink:
-      "comgooglemaps://?q=67+St+Georges+Terrace,+Battery+Point+TAS+7004,+Australia",
-  },
+    description: "At Bay View Villas or pre-packed",
+    address: "34 Poets Rd, West Hobart TAS 7000, Australia",
+    parking: "On-site parking available",
+    mapsLink: "comgooglemaps://?q=Bay+View+Villas+Hobart"
+},
   {
     date: "19 May 2025",
     time: "06:30 AM",
@@ -572,23 +570,20 @@ const itineraryData = [
   {
     date: "19 May 2025",
     time: "08:00 PM",
-    title: "Return to St Ives Apartments",
+    title: "Return to Bay View Villas",
     description: "Pack for Coles Bay trip tomorrow",
-    address: "67 St Georges Terrace, Battery Point TAS 7004, Australia",
-    parking: "Free private parking for guests",
-    mapsLink:
-      "comgooglemaps://?q=67+St+Georges+Terrace,+Battery+Point+TAS+7004,+Australia",
+    address: "34 Poets Rd, West Hobart TAS 7000, Australia",
+    parking: "On-site parking available",
+    mapsLink: "comgooglemaps://?q=Bay+View+Villas+Hobart"
   },
-
   {
     date: "20 May 2025",
     time: "07:00 AM",
     title: "Light Breakfast",
-    description: "At St Ives Apartments or pre-packed",
-    address: "67 St Georges Terrace, Battery Point TAS 7004, Australia",
-    parking: "Free private parking for guests",
-    mapsLink:
-      "comgooglemaps://?q=67+St+Georges+Terrace,+Battery+Point+TAS+7004,+Australia",
+    description: "At Bay View Villas or pre-packed",
+    address: "34 Poets Rd, West Hobart TAS 7000, Australia",
+    parking: "On-site parking available",
+    mapsLink: "comgooglemaps://?q=Bay+View+Villas+Hobart"
   },
   {
     date: "20 May 2025",
@@ -650,8 +645,8 @@ const itineraryData = [
     title: "Rest & Free Time",
     description: "Shower, pray, or relax before dinner",
     address: "Reserve Rd, Coles Bay TAS 7215, Australia",
-    parking: "On-site parking",
-    mapsLink: "comgooglemaps://?q=Reserve+Rd,+Coles+Bay+TAS+7215,+Australia",
+    parking: "On-site parking available",
+    mapsLink: "comgooglemaps://?q=Iluka+Holiday+Centre+Coles+Bay+TAS+7215"
   },
   {
     date: "20 May 2025",
@@ -782,9 +777,9 @@ const itineraryData = [
     time: "08:30 AM",
     title: "Check out and depart for Launceston",
     description: "Estimated travel time ~3 hrs with scenic stops",
-    address: "Coles Bay Rd, Coles Bay TAS 7215, Australia",
-    parking: "Accommodation car park",
-    mapsLink: "comgooglemaps://?q=Coles+Bay+Rd,+Coles+Bay+TAS+7215,+Australia",
+    address: "",
+    parking: "",
+    mapsLink: "",
   },
   {
     date: "22 May 2025",
@@ -847,9 +842,9 @@ const itineraryData = [
     time: "08:00 PM",
     title: "Wind down at hotel",
     description: "Relax and rest for your last full day in Launceston.",
-    address: "Launceston TAS 7250, Australia",
-    parking: "Hotel parking",
-    mapsLink: "comgooglemaps://?q=Launceston+TAS+7250,+Australia",
+    address: "29 Cameron St, Launceston TAS 7250, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=Hotel+Grand+Chancellor+Launceston" 
   },
 
   {
@@ -916,9 +911,9 @@ const itineraryData = [
     time: "04:00 PM",
     title: "Return to Hotel",
     description: "Pack up, freshen up, pray, short rest",
-    address: "Launceston TAS 7250, Australia",
-    parking: "Hotel parking",
-    mapsLink: "comgooglemaps://?q=Launceston+TAS+7250,+Australia",
+     address: "29 Cameron St, Launceston TAS 7250, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=Hotel+Grand+Chancellor+Launceston" 
   },
   {
     date: "23 May 2025",
@@ -963,9 +958,9 @@ const itineraryData = [
     time: "08:30 PM",
     title: "Return to Hotel & Rest",
     description: "Return to Hotel Grand Chancellor Launceston – rest and prepare for morning flight",
-    address: "29 Cameron St, Launceston TAS 7250, Australia",
-    parking: "On-site parking available",
-    mapsLink: "comgooglemaps://?q=Hotel+Grand+Chancellor+Launceston"
+    address: "29 Cameron St, Launceston TAS 7250, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=Hotel+Grand+Chancellor+Launceston" 
   },
 
   {
@@ -996,7 +991,7 @@ const itineraryData = [
     time: "11:40 AM",
     title: "Flight to Melbourne",
     description:
-      "Board your flight from Launceston to Melbourne. Flight duration is approximately 1 hour and 5 minutes.",
+      "Board your flight (Jetstar Airways JQ734) from Launceston to Melbourne. Flight duration is approximately 1 hour and 5 minutes.",
     address: "Launceston Airport, TAS 7212, Australia",
     parking: "N/A",
     mapsLink: "comgooglemaps://?q=Launceston+Airport,+TAS+7212,+Australia",
@@ -1004,12 +999,12 @@ const itineraryData = [
   {
     date: "24 May 2025",
     time: "12:45 PM",
-    title: "Arrive in Melbourne",
+    title: "Arrive in Melbourne Airport T4",
     description:
-      "Land at Melbourne Tullamarine Airport and proceed through customs.",
+      "Land at Melbourne Tullamarine Airport and proceed through customs. Once you have collected your luggage please call 1 800 474 258 or (+61) 07 5555 8908 to access your free airport shuttle.",
     address: "Melbourne Airport, VIC 3045, Australia",
     parking: "Airport parking",
-    mapsLink: "comgooglemaps://?q=Melbourne+Airport+VIC+3045,+Australia",
+    mapsLink: "https://www.eastcoastcarrentals.com.au/media/2022/04/T4-Melbourne-Airport.pdf",
   },
   {
     date: "24 May 2025",
@@ -1059,9 +1054,9 @@ const itineraryData = [
     title: "Return to Hotel & Prepare for Great Ocean Road Trip",
     description:
       "Relax and prepare for the next day's journey along the Great Ocean Road.",
-    address: "Melbourne VIC 3000, Australia",
-    parking: "Hotel parking",
-    mapsLink: "comgooglemaps://?q=Melbourne+VIC+3000,+Australia",
+    address: "214 Glengala Rd, Sunshine West VIC 3020, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=Nightcap+at+Glengala+Hotel" 
   },
 
   {
@@ -1146,9 +1141,9 @@ const itineraryData = [
     time: "08:00 PM",
     title: "Back to Hotel and Rest",
     description: "Back to hotel and rest.",
-    address: "Apollo Bay VIC 3233, Australia",
-    parking: "Accommodation parking",
-    mapsLink: "comgooglemaps://?q=Apollo+Bay+VIC+3233,+Australia",
+    address: "169 Great Ocean Rd, Apollo Bay VIC 3233, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=The+Apollo+Apollo+Bay" 
   },
 
   {
@@ -1324,9 +1319,9 @@ const itineraryData = [
     time: "08:30 AM",
     title: "Light Breakfast at Hotel",
     description: "Start the day slow and relaxed.",
-    address: "Melbourne VIC 3000, Australia",
-    parking: "Hotel parking",
-    mapsLink: "comgooglemaps://?q=Melbourne+VIC+3000,+Australia",
+    address: "475 Spencer St, West Melbourne VIC 3003, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=Melbourne+City+Apartment+Hotel" 
   },
   {
     date: "28 May 2025",
@@ -1384,9 +1379,9 @@ const itineraryData = [
     time: "05:30 PM",
     title: "Rest at Hotel",
     description: "Freshen up, relax, or prepare bags.",
-    address: "Melbourne VIC 3000, Australia",
-    parking: "Hotel parking",
-    mapsLink: "comgooglemaps://?q=Melbourne+VIC+3000,+Australia",
+    address: "475 Spencer St, West Melbourne VIC 3003, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=Melbourne+City+Apartment+Hotel" 
   },
   {
     date: "28 May 2025",
@@ -1421,23 +1416,24 @@ const itineraryData = [
     time: "08:30 AM",
     title: "Final Packing & Hotel Checkout",
     description: "Ensure nothing left behind, check out.",
-    address: "Melbourne VIC 3000, Australia",
-    parking: "Hotel parking",
-    mapsLink: "comgooglemaps://?q=Melbourne+VIC+3000,+Australia",
+    address: "475 Spencer St, West Melbourne VIC 3003, Australia", 
+    parking: "On-site parking available", 
+    mapsLink: "comgooglemaps://?q=Melbourne+City+Apartment+Hotel" 
   },
   {
     date: "29 May 2025",
     time: "09:00 AM",
-    title: "Drive to Airport",
+    title: "Drive to East Coast Car Rental",
     description: "30–40 min drive from city to Melbourne Airport.",
-    address: "Melbourne Airport VIC 3045, Australia",
-    parking: "Airport car rental area",
-    mapsLink: "comgooglemaps://?q=Melbourne+Airport+VIC+3045,+Australia",
+    address: "2 Tarmac Drive, Tullamarine, Victoria, 3043, Melbourne",
+    parking: "On-site rental return parking",
+    mapsLink:
+      "comgooglemaps://?q=2+Tarmac+Drive,+Tullamarine,+Victoria+3043,+Australia",
   },
   {
     date: "29 May 2025",
     time: "10:00 AM",
-    title: "Return Rental Car (East Coast Car Rentals)",
+    title: "Return Rental Car (East Coast Car Rentals) and take the Shuttle bus to Melbourne Airport T2",
     description:
       "Drop off car at 2 Tarmac Drive, Tullamarine. Shuttle to terminal provided.",
     address: "2 Tarmac Drive, Tullamarine, Victoria, 3043, Melbourne",
