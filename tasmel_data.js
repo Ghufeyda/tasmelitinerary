@@ -330,11 +330,11 @@ const itineraryData = [
 {
     date: "18 May 2025",
     time: "08:30 PM",
-    title: "Return to Bay View Villas",
-    description: "Rest early for Bruny Island trip next day",
-    address: "34 Poets Rd, West Hobart TAS 7000, Australia",
-    parking: "On-site parking available",
-    mapsLink: "comgooglemaps://?q=Bay+View+Villas+Hobart"
+    title: "Drive to watch Aurora Australis",
+    description: "Choose to watch at Goat Bluff Lookout, Tinderbox or Rosny Hill Lookout.",
+    address: "",
+    parking: "",
+    mapsLink: "https://www.sws.bom.gov.au/Aurora"
 },
   {
     date: "19 May 2025",
