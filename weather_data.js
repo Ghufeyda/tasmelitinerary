@@ -126,7 +126,7 @@ const weatherData = [
 // Function to add the day of the week to each entry
 weatherData.forEach((entry) => {
   const dateObj = new Date(entry.date);
-  const day = dateObj.toLocaleDateString('en-US', { weekday: 'long' });
+  const day = dateObj.toLocaleDateString('en-US', { weekday: 'short' });
   entry.day = day;
 });
 
