@@ -336,120 +336,104 @@ const itineraryData = [
     parking: "On-site parking available",
     mapsLink: "comgooglemaps://?q=Bay+View+Villas+Hobart"
 },
-{
+  {
     date: "19 May 2025",
-    time: "06:00 AM",
+    time: "06:30 AM",
     title: "Light Breakfast",
     description: "At Bay View Villas or pre-packed",
     address: "34 Poets Rd, West Hobart TAS 7000, Australia",
     parking: "On-site parking available",
     mapsLink: "comgooglemaps://?q=Bay+View+Villas+Hobart"
-},
-  {
-    date: "19 May 2025",
-    time: "06:30 AM",
-    title: "Drive to Kettering Ferry Terminal",
-    description: "Approx. 45 min scenic drive",
-    address: "Ferry Rd, Kettering TAS 7155, Australia",
-    parking: "Ferry terminal parking",
-    mapsLink: "comgooglemaps://?q=Ferry+Rd,+Kettering+TAS+7155,+Australia",
   },
   {
     date: "19 May 2025",
-    time: "07:30 AM",
+    time: "07:00 AM",
+    title: "Depart for Kettering Ferry Terminal",
+    description: "Approx. 30-minute drive to the ferry terminal",
+    address: "Ferry Rd, Kettering TAS 7155, Australia",
+    parking: "Ferry terminal parking",
+    mapsLink: "comgooglemaps://?q=Ferry+Rd,+Kettering+TAS+7155,+Australia"
+  },
+  {
+    date: "19 May 2025",
+    time: "08:10 AM",
     title: "Board Ferry to Bruny Island",
     description: "Sealink Bruny Island – book in advance",
     address: "Ferry Terminal, Kettering TAS 7155, Australia",
     parking: "Ferry terminal parking",
-    mapsLink:
-      "comgooglemaps://?q=Ferry+Terminal,+Kettering+TAS+7155,+Australia",
+    mapsLink: "comgooglemaps://?q=Ferry+Terminal,+Kettering+TAS+7155,+Australia"
   },
   {
     date: "19 May 2025",
-    time: "08:15 AM",
+    time: "08:30 AM",
     title: "Arrive & Explore The Neck Lookout",
     description: "Panoramic views + short stair climb",
     address: "Bruny Island Main Rd, Bruny Island TAS 7150, Australia",
     parking: "Lookout car park",
-    mapsLink:
-      "comgooglemaps://?q=The+Neck+Lookout,+Bruny+Island+TAS+7150,+Australia",
+    mapsLink: "comgooglemaps://?q=The+Neck+Lookout,+Bruny+Island+TAS+7150,+Australia"
   },
   {
     date: "19 May 2025",
-    time: "09:15 AM",
-    title: "Walk at Adventure Bay",
-    description: "Beach stroll, quick rest stop",
+    time: "09:30 AM",
+    title: "Adventure Bay Beach Walk",
+    description: "Quick 30-minute beach stroll",
     address: "Adventure Bay, Bruny Island TAS 7150, Australia",
     parking: "Beach parking",
-    mapsLink:
-      "comgooglemaps://?q=Adventure+Bay,+Bruny+Island+TAS+7150,+Australia",
+    mapsLink: "comgooglemaps://?q=Adventure+Bay,+Bruny+Island+TAS+7150,+Australia"
   },
   {
     date: "19 May 2025",
-    time: "10:30 AM",
+    time: "10:15 AM",
     title: "Brunch at Get Shucked Oysters",
     description: "Famous for fresh oysters and chips",
     address: "1735 Bruny Island Main Rd, Great Bay TAS 7150, Australia",
     parking: "Dedicated parking in front",
-    mapsLink:
-      "comgooglemaps://?q=1735+Bruny+Island+Main+Rd,+Great+Bay+TAS+7150,+Australia",
+    mapsLink: "comgooglemaps://?q=1735+Bruny+Island+Main+Rd,+Great+Bay+TAS+7150,+Australia"
   },
   {
     date: "19 May 2025",
-    time: "11:30 AM",
-    title: "Stop at Bruny Island Cheese Co.",
-    description: "Halal-friendly cheese tastings",
-    address: "1807 Bruny Island Main Rd, Great Bay TAS 7150, Australia",
-    parking: "On-site gravel lot",
-    mapsLink:
-      "comgooglemaps://?q=1807+Bruny+Island+Main+Rd,+Great+Bay+TAS+7150,+Australia",
+    time: "11:15 AM",
+    title: "Drive to Bruny Island Lighthouse",
+    description: "Approx. 45-minute drive to the southernmost tip of Bruny Island",
+    address: "1750 Lighthouse Rd, South Bruny TAS 7150, Australia",
+    parking: "Dedicated car park",
+    mapsLink: "comgooglemaps://?q=1750+Lighthouse+Rd,+South+Bruny+TAS+7150,+Australia"
   },
   {
     date: "19 May 2025",
-    time: "12:15 PM",
-    title: "Stop at Bruny Island Honey",
-    description: "Taste honey, shop skincare & sweets",
-    address: "2184 Bruny Island Main Rd, Great Bay TAS 7150, Australia",
-    parking: "Parking adjacent to shop",
-    mapsLink:
-      "comgooglemaps://?q=2184+Bruny+Island+Main+Rd,+Great+Bay+TAS+7150,+Australia",
+    time: "12:00 PM",
+    title: "Explore Bruny Island Lighthouse",
+    description: "Learn about the history and enjoy panoramic coastal views",
+    address: "1750 Lighthouse Rd, South Bruny TAS 7150, Australia",
+    parking: "Dedicated car park",
+    mapsLink: "comgooglemaps://?q=1750+Lighthouse+Rd,+South+Bruny+TAS+7150,+Australia"
   },
   {
     date: "19 May 2025",
     time: "01:00 PM",
-    title: "Prayer Break",
-    description: "Clean open space or car mat stop",
-    address: "Bruny Island, TAS",
-    parking: "Roadside or open space",
-    mapsLink: "",
+    title: "Relax at Cloudy Bay",
+    description: "Take a break, light lunch, and optional prayer stop",
+    address: "Cloudy Bay, Bruny Island, TAS",
+    parking: "Beachside parking",
+    mapsLink: "comgooglemaps://?q=Cloudy+Bay,+Bruny+Island,+TAS"
   },
   {
     date: "19 May 2025",
-    time: "03:30 PM",
-    title: "Drive back to Hobart",
-    description: "Arrive approx. 16:15",
-    address: "St Ives Apartments, Battery Point TAS 7004, Australia",
-    parking: "Free private parking for guests",
-    mapsLink:
-      "comgooglemaps://?q=67+St+Georges+Terrace,+Battery+Point+TAS+7004,+Australia",
+    time: "02:30 PM",
+    title: "Drive Back to Roberts Point Ferry Terminal",
+    description: "Scenic drive back for the sunset ferry",
+    address: "Roberts Point, Bruny Island TAS 7150, Australia",
+    parking: "Terminal parking",
+    mapsLink: "comgooglemaps://?q=Roberts+Point,+Bruny+Island+TAS+7150,+Australia"
   },
   {
     date: "19 May 2025",
-    time: "06:00 PM",
-    title: "Optional Light Dinner",
-    description: "Pickup or rest at apartment",
-    address: "",
-    parking: "",
-    mapsLink: "",
-  },
-  {
-    date: "19 May 2025",
-    time: "08:00 PM",
-    title: "Return to Bay View Villas",
-    description: "Pack for Coles Bay trip tomorrow",
-    address: "34 Poets Rd, West Hobart TAS 7000, Australia",
-    parking: "On-site parking available",
-    mapsLink: "comgooglemaps://?q=Bay+View+Villas+Hobart"
+    time: "04:40 PM",
+    title: "Sunset Ferry Return to Kettering",
+    description: "Relax and enjoy the scenic ride back to the mainland",
+    address: "Ferry Terminal, Bruny Island TAS 7150, Australia",
+    parking: "Ferry terminal parking",
+    mapsLink: "comgooglemaps://?q=Ferry+Terminal,+Bruny+Island+TAS+7150,+Australia"
   },
   {
     date: "20 May 2025",
