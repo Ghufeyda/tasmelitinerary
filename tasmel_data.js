@@ -349,7 +349,7 @@ const itineraryData = [
     date: "19 May 2025",
     time: "07:00 AM",
     title: "Depart for Kettering Ferry Terminal",
-    description: "Approx. 30-minute drive to the ferry terminal",
+    description: "Approx. 40-minute drive to the ferry terminal. Pre-purchase tickets now from Sealink.",
     address: "Ferry Rd, Kettering TAS 7155, Australia",
     parking: "Ferry terminal parking",
     mapsLink: "comgooglemaps://?q=Ferry+Rd,+Kettering+TAS+7155,+Australia"
