@@ -122,3 +122,12 @@ const weatherData = [
     sunset: "05:07 PM",
   },
 ];
+
+// Function to add the day of the week to each entry
+weatherData.forEach((entry) => {
+  const dateObj = new Date(entry.date);
+  const day = dateObj.toLocaleDateString('en-US', { weekday: 'long' });
+  entry.day = day;
+});
+
+console.log(weatherData);
